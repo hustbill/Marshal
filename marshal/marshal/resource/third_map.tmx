@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="mountain_landscape_23_48" tilewidth="48" tileheight="48">
+  <image source="mountain_landscape_23_48.png" width="768" height="768"/>
+ </tileset>
+ <tileset firstgid="257" name="hidden_tank_48" tilewidth="48" tileheight="48">
+  <image source="hidden_tank_48.png" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="258" name="castle_48" tilewidth="48" tileheight="48">
+  <image source="castle_48.png" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="259" name="factory_48" tilewidth="48" tileheight="48">
+  <image source="factory_48.png" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="260" name="wall_48" tilewidth="48" tileheight="48">
+  <image source="wall_48.png" width="48" height="48"/>
+ </tileset>
+ <layer name="LowerBackground" width="48" height="48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3V3RHBUBCG4RSACowKUAEqQBTgJx1JAX5SACogtfkyk8yYM05Chux+7MU7e7v7hCQMgmCBQtK5QRHxlPYz/+o7d2jvdCDxz3bforNT7LlJm//pye6+YoHnUnXfO/tnXYj9i/1Z/ROUKvL3/XfL7DW9f+r8djS9f+rsb/6f87+iI7F/lN9we6jsHm3+r34Pkvy2VKF/1fMo9m7ava6/tinlZv7mr2FK+5n/93xaqO2pQ+DfRSM0dpqgHoF/tv8UzZzm+f4M/mX7m7/5/7r/Eq2c1iT+fTTwNCTwZ//+NjGl/cxfh6P5c05pP/PX4Wj+nFPa79/97731l8UAJAAA
+  </data>
+ </layer>
+ <layer name="HigherBackground" width="48" height="48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZywmAMBBF0elaO7ACPw2osQC1PRNIMGalII4D98ADlzfiKooAAL6waAfgYtAOAJS1fl1cr9zyROqu/Ka4WuycY5Szu9ys2HWX9f7Vb4trxF5/Lj9L2K6bAwAAAADAL6R7eKda8ZwrZu1/Qmq21p53589WlN+NtfcfpG4A7zgAVKfJ5gAkAAA=
+  </data>
+ </layer>
+ <layer name="Objects" width="48" height="48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Zt04EMRRFh9gTe2JP7Gnoaehp+AP4A/gvskSSyFFI5FSQsxCcEQ1QzI6fPeO34COd1RbPM7fwyqvrKNLFGI7jBE56yjCLc8K1S7iMK7jqLJEZ27gjXLuPB3iIR84SmXGBl8K1N3iLd3jvLJEZr/jm6d2BQDExhdM44zuIkDVcxw3fQYQc4wmeCtZWOc4i4QEf8UmwtsFxlrxp8x3Akh6D2U3cyiqIkD6sTzl7hucZZpEwgK0pZ5/xJcMsUrp9B/jFu+F8byYp3HCF1wVm+vMIIuQj/ihJnhnMI0igKDH9Lf91NJ7BJmg8g03QegYnEfbMF0M47OA5prjaMyM46uA5mrHpfTVg0/tqwKb31UDofX+y6DuAJXu44DvEP2T+2/ek/+Bau+PdlHOau+M0+96mO9aATXccCBQirp5KsQzLsQIrvSYyI77fqcYarMW6KH3frYH4fqcRm7AZW6L0fbcG4vudduzATuyK3Pfdn2eSSAcAJAAA
+  </data>
+ </layer>
+</map>

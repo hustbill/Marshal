@@ -1,0 +1,29 @@
+The guide to access this project 
+-------------------------------------------------------------------------------
+1. Generate SSH key
+       ssh-keygen -t rsa -C "your email address"
+
+2. Copy the content of ~/.ssh/id_rsa.pub file
+
+3. Paste it onto "Profile Settings -> SSH Keys - > Add SSH Key"
+
+4. Go to your local git dir (i.e where you saved your project1 repo)
+
+5. Make new dir or simply git clone git@69.166.62.18:billyzhang2010/cs547p2.git 
+    Don't clone from HTTP link. Push does not work, if you clone from HTTP link
+
+6. cd into newly created dir
+
+7. git init 
+
+8. touch "your file" 
+
+9. git add "your file"
+
+10. git commit -m "commit message" 
+
+11. git push origin master
+
+DONE
+
+

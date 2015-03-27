@@ -1,0 +1,63 @@
+Group project 
+CS547 Game design project 2
+------------------------------
+
+Team members:
+Hua
+Kuei-Ti 
+Solongo
+
+(1) Controls for the Game: 
+
+Mouse left click on or dragging across standby tanks to select the tanks. 
+Mouse left click on a non-occupied position to command selected tanks to move toward that position. 
+Mouse left click on the opponent's entity to command selected tanks to move toward and attack that entity. 
+Mouse left click on or dragging across non-standby tanks to command the tanks to stand by. 
+Click a button on the panel to change the mode. 
+In Repair Mode, click on an own entity to repair that entity. 
+In Upgrade Mode, click on an own Level 1 tank factory or Level 1 defense wall to upgrade them to Level 2. 
+In Wall Building Mode, click on an non-occupied position to build a Level 1 defense wall. 
+In Factory Building Mode, click on an non-occupied position to build a Level 1 tank factory. 
+In Tank Manufacture Mode, click on an own tank factory to manufacture a tank. 
+	A Level 1 tank factory manufactures a Level 1 tank, and a Level 2 tank factory manufactures a Level 2 tank. 
+
+(2) Cheat Codes: 
+
+Mouse right click: Disable scrolling
+
+(3) Originally Proposed Low-Bar Goals and Current Status
+
+1. Leaderboard (incomplete) 
+2. Scrolling (complete) 
+3. Headquarters (complete) 
+4. Various types of tank factories (complete) 
+5. Various types of tanks (complete) 
+6. Health bars (complete) 
+7. Coin trackers (complete) 
+8. Networking (complete) 
+9. Pathfinding (complete) 
+10. Entity state-based behavior (complete) 
+
+(4) Other Goals Completed
+
+1. More images or animations
+2. More music or sounds
+3. Dragging control
+4. Show whether a tank is selected
+
+(5) References
+
+Defense wall image source: http://opengameart.org/content/isometric-64x64-medieval-building-tileset
+Explosion image source: http://opengameart.org/content/fire-spell-explosion
+Explosion sound source: http://www.freesound.org/people/DJ%20Chronos/sounds/123234/
+Fire ball image source: http://opengameart.org/content/fireball-spell
+Headquarter image source: http://opengameart.org/content/isometric-medieval-city-sim-assets
+Menu image source: http://onlinemilitarybulletin.com/media/images/1/2/10968.jpg 
+Money panel image source: http://opengameart.org/content/rpg-gui-construction-kit-v10
+Money spending sound source: http://opengameart.org/content/inventory-sound-effects
+Tank factory image source: http://cnc.wikia.com/wiki/File:Allied_War_Factory.JPG - licensed under CC-BY-SA 
+Tank image source: http://opengameart.org/content/isometric-tank
+
+(6) 
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="mountain_landscape_23" tilewidth="32" tileheight="32">
+  <image source="mountain_landscape_23.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="hidden_tank" tilewidth="32" tileheight="32">
+  <image source="hidden_tank.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="258" name="headquarter_image" tilewidth="32" tileheight="32">
+  <image source="headquarter_image.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="259" name="headquarter_image_blue" tilewidth="32" tileheight="32">
+  <image source="headquarter_image_blue.png" width="32" height="32"/>
+ </tileset>
+ <layer name="LowerBackground" width="48" height="48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VwQmEMBQE0BSgVuBaQbQV7cDtYO1AS/cfEgiCKKzyZ2AOw1znv0MyhhAmy0jas+VL3N5+8sdwlD9ne/vJH8NR/pzt7Sd/DEf5c7a3n/wxHOXP2d5+8sdwlD9ne/vJH8NR/s92ZaktDZl/3v2zfCxLugHd/7i7TL4B1b862V2mA/W/sz3vR/Rvb2zfLAOo/9X+vB31/YmWtdjap6wvuz/5/sS0uXSOL7vr/8Vobz/5YzjKn7O9/f7tHc9trF0AJAAA
+  </data>
+ </layer>
+ <layer name="HigherBackground" width="48" height="48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WQQqAMAxE0d5/r55ArQdQr2cQAsWFqJQ0kf9gdkKnLsqkBADwaDE8q5P0RQbDs2sYJVOR+eZby//61Jv+Hq2Srcjetg4AnDy+9/iP3LrAR1F7X0W7R+2+ut2tN3ute+j2jbZ5lW5fNi8AAAAAAPDmAGMpi1MAJAAA
+  </data>
+ </layer>
+ <layer name="Objects" width="48" height="48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XNw7CQBRFUbZG7Ik9caeARCjJtOSa3HB3wIjx+Bt4R7qdJb9u9FOpcNKUoSzlKE+FgP9z1aUe9d98V6QSlalCVaqFneZkQlOavfmuTg1qUova1Ak7zcmGtrSzHvKhM13oaj1E/tqAhtYjPCxpZT3Cw5FO1iM8POhpPUJEJEZ6N23p3RQrrrd/Urne/kml218kjDktrEd42NPBeoSHG92tR/yAkfUAT2saW4/w8M3b5TdE/ZbFffNH/ZbFffNH/Zbp5hcRSZYXs2DZrwAkAAA=
+  </data>
+ </layer>
+</map>

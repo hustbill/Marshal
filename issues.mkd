@@ -1,0 +1,113 @@
+## Resolved Issues ##
+
+- **[1]** Need a skeletal, executable game
+- **[2]** Add the start up state
+- **[3]** Add a basic playing state
+- **[4]** Add a basic type of game object
+- **[5]** Add a basic type of headquarter
+- **[6]** Add a basic type of tank
+- **[7]** Add a basic type of tank factory
+- **[8]** Add a basic type of defense wall
+- **[9]** Add a basic map
+- **[10]** Add tank mouse control for targeting
+- **[11]** Add a tank mouse control for moving to a destination
+- **[12]** Add a tank mouse control for attacking a target
+- **[13]** Handle tank-target collision
+- **[14]** Add camera translation control
+- **[15]** Add view processing for mouse clicks
+- **[16]** Add a basic player class
+- **[17]** Add a mouse click tile indices identification
+- **[19]** Distinguish selected and unselected tanks
+- **[20]** Add pathfinding to tanks
+- **[21]** Add a money indicator
+- **[23]** Add health bars
+- **[24]** Add more terrain tiles to the map
+- **[25]** Handle repairing
+- **[26]** Have two levels of tanks
+- **[27]** Have two levels of defense walls
+- **[30]** Handle Headquarter states
+- **[34]** Wrap control code except money spending code
+- **[35]** Render smooth tank moves
+- **[37]** Clean code for alpha release
+- **[37]** Refine scrolling
+- **[38]** Make tank movement more intuitive
+- **[39]** Add visual and audio cue on tank selection
+- **[40]** Fix the issue of tanks staying in the middle of two tiles
+- **[41]** Fix the standby state transition bug
+- **[42]** Fix dragging bug
+- **[43]** Add nearest nonblocked tile detection to pathfinding
+- **[44]** Add nearest nonblocked tile detection to pathfinding for normal moves
+- **[45]** Add sound resources
+- **[46]** Add a fireball
+- **[47]** Redesign networking structure
+- **[48]** Integrate tank movement in networking
+- **[49]** Add target conflict check
+- **[50]** Add money income interactions
+- **[51]** Refine kaboom-related items
+- **[52]** Add GameState
+- **[53]** Add the formal map template
+- **[54]** Add a menu state
+- **[55]** Add state transitions related to the menu state
+- **[56]** Add a game end state
+- **[63]** Add a game intro sound
+- **[65]** Finalize tanks' move speeds
+- **[66]** Finalize tanks' attack speeds
+- **[67]** Fix the fireball bug
+- **[68]** Finalize tanks' attack powers
+- **[69]** Finalize tanks' attack ranges
+- **[70]** Finalize entities' defense powers
+- **[71]** Add factory image resources
+- **[72]** Handle tank factories' tank manufacturing function
+- **[73]** Handle the tank factory building function
+- **[74]** Handle the defense wall building function
+- **[75]** Handle levels of tanks, factories, and walls
+- **[76d]** Fully integrate tank movement with networking
+- **[79]** Have two levels of tank factories
+- **[80]** Add defense wall resources
+- **[81]** Add hints for money control
+- **[82]** Wrap Player control
+- **[83]** Remove the StartupState
+- **[84]** Distinguish Player0's and Player1's control
+- **[85]** Allow the client to see Player1's current mode and current money amount
+- **[86]** Allow the client to see the factories and walls
+- **[87]** Allow the client to see health bars
+- **[88]** Allow the client to see explosions
+- **[89]** Allow the client to see fireballs
+- **[90]** Implement scrolling control
+- **[91]** Add a function to return the tank direction
+- **[92]** Update server with client view
+- **[93]** Integrate factory building mode in networking 
+- **[94]** Integrate wall building mode in networking
+- **[95]** Integrate repair mode in networking
+- **[96]** Integrate upgrade mode in networking
+- **[97]** Integrate tank manufacturing mode in networking
+- **[98]** Integrate headquarter health updates in networking
+- **[100]** Finalize mode rendering on both the server and the client
+- **[101]** Integrate money sound in networking (or remove money sound from the game) 
+- **[102]** Finalize selection rendering on both the server and the client
+- **[103]** Finalize initial entities
+- **[105]** Finish the readme file
+
+
+## Closed Issues ##
+
+- **[18]** Add a faster scrolling state (not needed) 
+- **[22]** Add money spending control (divided into smaller tasks) 
+- **[28]** Consider tank image angles (fixed with Issue35) 
+- **[29]** Handle internal states in PlayingState (divided into smaller tasks) 
+- **[31]** Handle Wall states (fixed with Issue27) 
+- **[32]** Handle tank factory states (fixed with Issue7) 
+- **[33]** Integrate networking (divided into smaller tasks) 
+- **[36]** Handle destroyed entities (fixed with Issue51) 
+- **[58]** Add a initial setup state (removed from the plan) 
+- **[59]** Add state transitions related to the initial setup state (removed from the plan) 
+- **[60]** Add a tutorial state (optional and no enough time) 
+- **[61]** Add state transitions related to the tutorial state (optional and no enough time) 
+- **[64]** Finalize scrolling speed (no change needed) 
+- **[99]** Allow only mode change or control in one update for the client (fixed with another issue) 
+- **[104]** Finalize dragging on the server (fixed with another issue) 
+
+## Open Issues ##
+ 
+- **[62]** Add a leaderboard
+- **[76]** Finalize networking
